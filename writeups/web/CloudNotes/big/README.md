@@ -1,3 +1,7 @@
+# Writeup: Cloudnotes
+## Team: big🔥
+**Author:** SpaceyLad (Stian Kvålshagen)
+
 This task requires us to read the source code and experiment a bit. What we know is that there is an admin account that have notes written with flags on it, and that the admin is checking their notes frequently.
 
 As usual, I opened the app in Burp Suite and started exploring the different endpoints. Analyzing the source code (the app.js) i found this, which directly injects content into the div without any sanitation.
